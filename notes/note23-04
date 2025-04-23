@@ -1,0 +1,90 @@
+ DEVOPS:
+  DevOps is a combination of 
+•	tools, 
+•	practices, and 
+•	cultural philosophy 
+that helps in delivering high-quality software faster and more reliably through automation and collaboration.
+ 
+Gate Management in DevOps:
+•	Acts as a control checkpoint
+•	Used to decide when to allow a process or deployment to move forward
+•	Helps in improving quality by catching issues early and reducing technical debt
+ 
+DevOps is a combination of 3 things:
+Tools
+Used for automation, integration, and tracking:
+•	Ansible – Configuration management
+•	Jenkins – CI/CD automation
+•	Jira – Project and issue tracking
+ 
+________________________________________
+ 
+Practices 
+Key DevOps lifecycle stages:
+Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
+Other Important Practices:
+•	CI/CD – Continuous Integration & Delivery
+•	IaC (Infrastructure as Code) – Automate infrastructure setup (e.g., using Terraform, ARM templates)
+•	Certificate Management – Secure communication
+•	Security Checks – Integration of tools to catch vulnerabilities early
+ 
+________________________________________
+ 
+Cultural Philosophy
+•	Collaboration between Development, Operations, QA, and Security
+•	Encourages shared responsibility, faster feedback, and continuous improvement
+ 
+ 
+DevSecOps:
+•	DevSecOps = Development + Security + Operations
+•	It integrates security into every step of the DevOps pipeline
+•	SAST – Static Application Security Testing
+o	Scans source code for vulnerabilities
+o	Should be done during the integration phase (not after deployment)
+o	Helps catch security issues early in the build process
+
+
+
+
+
+ 
+IAAS VS SAAS VS PAAS
+       
+
+1.	IaaS:  Cloud model where you rent complete infrastructure (like virtual machines, storage, networks) from a provider (e.g., Azure), and you manage everything on top of it.
+•	eg:Working from home with no laptop and no salary = You have no infrastructure to work.
+•	If UST provides you a laptop, network, and setup, now you have complete infra = That’s IaaS.
+  Advantages of IaaS:
+ 
+ 
+   
+Self service provisioning:
+•	create almost any kind of services (instance,cluster,acr,roles,acs,azure files,storages,devops pipeline,network,subnet)      
+•	 portal - self-explanatory (dont need trainer)         
+•	dis: time,consistency
+
+Beneits of IaaS
+•	💸 Cost Reduction
+No need to invest in physical infrastructure. Pay-as-you-go model helps cut upfront costs.
+•	⚡ Faster Deployment (Automated)
+Automation tools enable faster provisioning, testing, and releasing — reduces time-to-market.
+•	🔁 High Availability & Reliability
+Use of AMIs (Amazon Machine Images) ensures reliable replication and fast recovery in case of failures.
+•	🌍 Global Reach
+Easily deploy applications in any region around the world to serve users with low latency.
+•	🔐 Data Security and Compliance
+Data can be encrypted and moved to specific regions to comply with local regulations and standards.
+
+Challenges of Iaas
+•	 Security & Vulnerabilities
+Cloud platforms may face vulnerabilities — providers send alerts, but you must apply patches yourself (especially in IaaS).
+•	 Compliance Requirements
+Industries like banking and healthcare (e.g., HIPAA in the US) require strict data confidentiality.
+•	In SaaS, data is with the provider.
+•	In IaaS, you are responsible for compliance and data protection.
+•	Integration with Existing Systems
+Old systems (legacy apps) may not work smoothly with new cloud or automation tools — so extra effort or changes may be needed to make them work together.
+•	Dependency on Cloud Provider
+Service interruptions, pricing changes, or policy shifts by the provider can impact your business.
+
+
